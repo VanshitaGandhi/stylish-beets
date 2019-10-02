@@ -34,7 +34,7 @@ figcaption {
   font-style: italic;
 }
 
-main+p {
+figure + p {
   font-weight: bold;
   font-size: 1.125rem;
 }
@@ -61,4 +61,8 @@ h2+p {
 
 dt {
   font-weight: bold;
+}
+
+ul {
+  list-style-type: disc;
 }
