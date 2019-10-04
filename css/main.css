@@ -41,7 +41,7 @@ figcaption {
   font-style: italic;
 }
 
-figure + p {
+.bold {
   font-weight: bold;
   font-size: 1.125rem;
 }
