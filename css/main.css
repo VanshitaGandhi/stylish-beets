@@ -1,6 +1,6 @@
 html {
   background-color: #c9b5ab;
-  font-family: PT Sans, sans-serif;
+  font-family: "PT Sans", sans-serif;
   line-height: 1.5;
 }
 
@@ -12,22 +12,29 @@ h1 {
 ol {
   list-style-type: none;
 }
+
 a {
   color: #8f2440;
+  text-decoration: underline;
 }
 
 a:hover {
   color: #3f1622;
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
 }
 
 main {
-  font-family: PT Serif, serif;
+  font-family: "PT serif", serif;
 }
 
 h1, h2 {
   color: #3f1622;
   font-size: 1.125rem;
-  font-family: PT sans, sans-serif;
+  font-family: "PT+Sans", sans-serif;
 }
 
 figcaption {
@@ -47,6 +54,7 @@ blockquote {
 strong {
   font-weight: normal;
 }
+
 footer {
   font-size: 0.8rem;
 }
@@ -55,7 +63,7 @@ h2 + ol{
   list-style-type: lower-greek;
 }
 
-h2+p {
+h2 + p {
   font-style: italic;
 }
 
