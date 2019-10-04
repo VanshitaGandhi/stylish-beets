@@ -7,14 +7,18 @@ html {
 h1 {
   color: #3f1622;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 ol {
   list-style-type: none;
+  font-weight: bold;
 }
 
 a {
   color: #8f2440;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
@@ -32,8 +36,9 @@ main {
 
 h1, h2 {
   color: #3f1622;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-family: "PT Sans", sans-serif;
+  font-weight: bold;
 }
 
 figcaption {
@@ -55,18 +60,21 @@ strong {
 }
 
 footer {
-  font-size: .8rem;
+  font-size: 1.125rem;
+  font-weight: normal;
+  font-family: "PT Serif", serif;
 }
 
-h2 {
+h2 + ol {
   list-style-type: lower-greek;
+  font-weight: normal;
 }
 
 h2 + p {
   font-style: italic;
 }
 
-dt {
+dl dt {
   font-weight: bold;
 }
 
