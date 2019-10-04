@@ -42,6 +42,7 @@ h1, h2 {
 }
 
 figcaption {
+  font-size: 1.125rem;
   font-style: italic;
   text-align: center;
 }
@@ -64,6 +65,10 @@ footer {
   font-size: 1.125rem;
   font-weight: normal;
   font-family: "PT Serif", serif;
+}
+
+footer cite {
+  font-size: .8rem;
 }
 
 h2 + ol {
