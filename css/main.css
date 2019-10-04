@@ -43,6 +43,7 @@ h1, h2 {
 
 figcaption {
   font-style: italic;
+  text-align: center;
 }
 
 .bold {
@@ -79,5 +80,5 @@ dl dt {
 }
 
 ul {
-  list-style-type: disc;
+  list-style-type: circle;
 }
